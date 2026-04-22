@@ -1,0 +1,6 @@
+﻿id,subject,body
+1,Payment failed,"We cannot process card payments since morning for all EU users. Orders are blocked and customers are angry."
+2,Password reset not working,"Some users cannot reset password because email code expires too quickly."
+3,Need invoice copy,"Please send me last month's invoice PDF for accounting."
+4,App crashes on startup,"After update 2.1.4 the app closes immediately on Android 14 devices."
+5,Change email address,"I want to update my account email from old@mail.com to new@mail.com"

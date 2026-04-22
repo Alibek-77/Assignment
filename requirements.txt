@@ -1,0 +1,12 @@
+﻿pandas
+openpyxl
+python-docx
+pdfplumber
+rapidfuzz
+numpy
+langgraph
+langchain
+langchain-google-genai
+pydantic
+python-dotenv
+langsmith

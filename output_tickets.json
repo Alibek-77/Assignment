@@ -1,0 +1,99 @@
+{
+  "total_tickets": 5,
+  "grouped_by_department_and_priority": {
+    "Billing": {
+      "High": [
+        {
+          "id": "",
+          "subject": "Payment failed",
+          "body": "We cannot process card payments since morning for all EU users. Orders are blocked and customers are angry.",
+          "category": {
+            "department": "Billing",
+            "urgency": "High"
+          },
+          "summary": {
+            "issue_summary": "Payment failure for EU users since morning, blocking orders and causing customer dissatisfaction.",
+            "root_cause": "Payment gateway issue, likely due to a technical glitch or maintenance in the EU region.",
+            "suggested_action": "Reach out to the payment gateway provider to investigate the issue and resolve it as soon as possible. In the meantime, consider offering alternative payment methods or temporary solutions to unblock orders.",
+            "sentiment": "Angry"
+          },
+          "critical_draft_reply": null
+        }
+      ],
+      "Normal": [
+        {
+          "id": "",
+          "subject": "Need invoice copy",
+          "body": "Please send me last month's invoice PDF for accounting.",
+          "category": {
+            "department": "Billing",
+            "urgency": "Normal"
+          },
+          "summary": {
+            "issue_summary": "Customer requested a copy of last month's invoice PDF for accounting purposes.",
+            "root_cause": "Insufficient communication or documentation of invoice availability",
+            "suggested_action": "Provide the customer with a copy of the invoice PDF via email or portal, and consider implementing a process for easy access to past invoices.",
+            "sentiment": "Neutral"
+          },
+          "critical_draft_reply": null
+        }
+      ]
+    },
+    "Technical": {
+      "High": [
+        {
+          "id": "",
+          "subject": "Password reset not working",
+          "body": "Some users cannot reset password because email code expires too quickly.",
+          "category": {
+            "department": "Technical",
+            "urgency": "High"
+          },
+          "summary": {
+            "issue_summary": "Password reset functionality is not working for some users due to email code expiration time being too short.",
+            "root_cause": "The root cause of this issue is the email code expiration time being set too low, which is causing some users to miss the window to reset their password.",
+            "suggested_action": "Increase the email code expiration time to a more reasonable duration, such as 24 hours, to allow users sufficient time to reset their password.",
+            "sentiment": "Neutral"
+          },
+          "critical_draft_reply": null
+        },
+        {
+          "id": "",
+          "subject": "App crashes on startup",
+          "body": "After update 2.1.4 the app closes immediately on Android 14 devices.",
+          "category": {
+            "department": "Technical",
+            "urgency": "High"
+          },
+          "summary": {
+            "issue_summary": "App crashes on startup after update 2.1.4 on Android 14 devices",
+            "root_cause": "Compatibility issue between app update 2.1.4 and Android 14 operating system",
+            "suggested_action": "Roll back to previous app version or provide a patch update to resolve compatibility issue",
+            "sentiment": "Angry"
+          },
+          "critical_draft_reply": null
+        }
+      ]
+    },
+    "Account": {
+      "Normal": [
+        {
+          "id": "",
+          "subject": "Change email address",
+          "body": "I want to update my account email from old@mail.com to new@mail.com",
+          "category": {
+            "department": "Account",
+            "urgency": "Normal"
+          },
+          "summary": {
+            "issue_summary": "Customer requests to update their account email address from old@mail.com to new@mail.com.",
+            "root_cause": "Customer's email address needs to be updated in our system.",
+            "suggested_action": "Please update the customer's email address in our system to new@mail.com.",
+            "sentiment": "Neutral"
+          },
+          "critical_draft_reply": null
+        }
+      ]
+    }
+  }
+}

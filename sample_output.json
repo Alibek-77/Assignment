@@ -1,0 +1,28 @@
+﻿{
+  "total_tickets": 1,
+  "grouped_by_department_and_priority": {
+    "Technical": {
+      "Critical": [
+        {
+          "id": "1",
+          "subject": "Payment failed",
+          "body": "We cannot process card payments since morning for all EU users.",
+          "category": {
+            "department": "Billing",
+            "urgency": "Critical"
+          },
+          "summary": {
+            "issue_summary": "Payments are failing for many users.",
+            "root_cause": "Likely payment gateway integration outage.",
+            "suggested_action": "Escalate to on-call billing engineer and status page update.",
+            "sentiment": "Angry"
+          },
+          "critical_draft_reply": {
+            "reply_subject": "We are urgently investigating your payment issue",
+            "reply_body": "Thank you for reporting this. Our engineering team is actively working on a fix and we will update you shortly."
+          }
+        }
+      ]
+    }
+  }
+}

@@ -76,22 +76,3 @@ JSON grouped by department and urgency, for example:
   }
 }
 ```
-
-## Defense Talking Points
-1. Why LangGraph: explicit workflow control, clear node orchestration, maintainable pipeline.
-2. Why Pydantic structured output: reliable schema, typed data, safer downstream processing.
-3. Why multiple LLM calls: split responsibilities improves consistency and makes debugging easier.
-4. Bonus feature: critical ticket auto-draft helps support agents respond faster.
-5. Scalability: node-based architecture allows adding SLA checks, auto-routing, and analytics.
-
-## Common Questions + Short Answers
-- **Q: Where are your 2+ LLM calls?**
-  - In `categorize_tickets`, `summarize_tickets`, and `draft_critical_replies`.
-- **Q: Where is the graph state?**
-  - `PipelineState` in `src/models.py`.
-- **Q: Where are prompts?**
-  - `src/prompts.py` as named constants.
-- **Q: How is output validated?**
-  - Every LLM response is parsed to Pydantic models before further use.
-- **Q: What is your bonus implementation?**
-  - Critical-ticket draft replies and optional LangSmith tracing.
